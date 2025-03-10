@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">Dion Kajdomcaj</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact" class="cta-button">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Hello, I'm Dion">Hello, I'm Dion</h1>
+            <p class="subtitle">Backend and AI Engineer</p>
+            <div class="hero-cta">
+                <a href="#projects" class="primary-btn">View My Work</a>
+                <a href="#contact" class="secondary-btn">Get in Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll Down</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        
+            
+            <div class="about-content">
+                <h3>Hello! I'm <span class="highlight">Dion Kajdomcaj</span></h3>
+                <p class="about-text">
+                    I'm an engineer based in Budapest, Hungary. 
+                    I focus on creating reliable and efficient backend systems that can handle large-scale operations. 
+                    Additionally, I specialize in integrating and implementing various machine learning, language, and computer vision models.
+                </p>
+                
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h4>Backend</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Scala</span>
+                            <span class="skill-tag">Go</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Databases (SQL and NoSQL)</span>
+                            <span class="skill-tag">System Design</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Devops</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">Cloud Foundry</span>
+                            <span class="skill-tag">CI/CD pipelines</span>
+                            <span class="skill-tag">SAP BTP</span>
+                            <span class="skill-tag">AWS</span>
+                        </div>
+                    </div> 
+
+                    <div class="skill-category">
+                        <h4>Machine Learning & Deep Learning</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">scikit-learn</span>
+                            <span class="skill-tag">Neural Networks</span>
+                            <span class="skill-tag">CNNs</span>
+                            <span class="skill-tag">RNNs</span>
+                        </div>
+                    </div>
+                
+                    <div class="skill-category">
+                        <h4>Natural Language Processing</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">NLTK</span>
+                            <span class="skill-tag">spaCy</span>
+                            <span class="skill-tag">Hugging Face</span>
+                            <span class="skill-tag">BERT</span>
+                            <span class="skill-tag">RoBERTa</span>
+                            <span class="skill-tag">Text Classification</span>
+                        </div>
+                    </div>
+                
+                    <div class="skill-category">
+                        <h4>Computer Vision</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">YOLO</span>
+                            <span class="skill-tag">Object Detection</span>
+                            <span class="skill-tag">Image Classification</span>
+                            <span class="skill-tag">Image Segmentation</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category soft-skills">
+                        <h4>Soft Skills</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">Problem Solving</span>
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag">Critical Thinking</span>
+                            <span class="skill-tag">Time Management</span>
+                            <span class="skill-tag">Adaptability</span>
+                            <span class="skill-tag">Collaboration</span>
+                            <span class="skill-tag">Mentoring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="section-header">
+            <h2>Experience</h2>
+            <div class="section-line"></div>
+        </div>
+    
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">APR 2024 - Present</div>
+                    <h3>Software Engineer</h3>
+                    <h4>SAP</h4>
+                    <ul class="timeline-details">
+                        <li>Successfully developed and deployed a multi-tenant application in Cloud Foundry, supporting over 50 tenants and improving resource utilization by 30%.</li>
+                        <li>Created AI prototypes for data analytics within a forms application, increasing data processing efficiency by 40% and reducing manual analysis time by 50%.</li>
+                        <li>Enhanced security and access control for REST APIs using OAuth2.0 authentication, ensuring secure data transactions for over 30,000 users.</li>
+                        <li>Improved system stability and performance by implementing a rate limiter, reducing API abuse by 80% and maintaining a 99.9% uptime for critical services.</li>
+                        <li>Designed and executed zero-downtime deployment and migration strategies, achieving 98% uptime during 15 major deployments and minimizing user impact.</li>
+                        <li>Played a key role in launching and establishing the product from its initial stages, contributing to a 200% increase in user base within the first year of launch.</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>Java</span>
+                        <span>Scala.js</span>
+                        <span>Docker</span>
+                        <span>SAP BTP</span>
+                        <span>AWS</span>
+                        <span>Cloud Foundry</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">OCT 2022 - APR 2024</div>
+                    <h3>Associate Backend Developer</h3>
+                    <h4>SAP</h4>
+                    <ul class="timeline-details">
+                        <li>Maintained and enhanced front-end and back-end features, ensuring optimal performance and user experience.</li>
+                        <li> Conducted thorough investigations to identify the root cause of bugs in customer systems, leading to a 30% reduction in recurring issues.</li>
+                        <li>Improved resolution and delivery time for backend issues by 45%, enhancing overall system reliability and customer satisfaction.</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>JavaScript</span>
+                        <span>Java</span>
+                        <span>ABAP</span>
+                        <span>MDK</span>
+                        <span>MAIF</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">JAN 2022 - JUNE 2022</div>
+                    <h3>Software Developer Intern</h3>
+                    <h4>SAP</h4>
+                    <ul class="timeline-details">
+                        <li>Successfully automated over 50 UI test cases for the SAP Windows MDK project, enhancing test coverage and efficiency.</li>
+                        <li>Maintained and improved the UI automation test framework, reducing test execution time by 30% and increasing reliability by 25%</li>
+                        <li>Developed a Proof of Concept to run the same UI automated tests for the SAP Service and Asset Manager application across 3 different mobile platforms (iOS, Android, Windows), achieving a 85% success rate in test execution consistency.</li>
+                        <li>Automated UI test cases for the SAP Service and Asset Manager mobile application, resulting in a 40% reduction in manual testing efforts and a 20% increase in defect detection rate.</li>
+                        <li>Conducted extensive research and developed a solution to enable cross-platform UI testing, which led to a 50% reduction in duplicated test case development efforts.</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>JavaScript</span>
+                        <span>Java</span>
+                        <span>ABAP</span>
+                        <span>MDK</span>
+                        <span>MAIF</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <div class="section-line"></div>
+        </div>
+    
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="form_builder.png" alt="SAP Dynamic Forms">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://www.sap.com/assetdetail/2024/06/b481226b-c77e-0010-bca6-c68f7e60039b.html" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>SAP Dynamic Forms</h3>
+                    <p>Cross-platform forms solution that provides a comprehensive platform for creating, managing, and deploying complex web forms.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Scala</span>
+                        <span>PostgreSQL</span>
+                        <span>Redis</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="ssam.png" alt="SAP Service and Asset Management">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://www.sap.com/products/scm/asset-manager.html" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>SAP Service and Asset Management</h3>
+                    <p>SAP Service and Asset Manager is a mobile application designed to streamline the management of assets and service operations. It is part of SAP's suite of solutions aimed at enhancing operational efficiency and sustainability</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>ABAP</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="section-header">
+            <h2>I can help you with the following</h2>
+            <div class="section-line"></div>
+        </div>
+    
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Backend Development</h3>
+                <p>Building robust, scalable, and secure server-side applications with modern technologies and best practices.</p>
+                <ul class="service-features">
+                    <li>API Development</li>
+                    <li>Database Design</li>
+                    <li>System Architecture</li>
+                    <li>Performance Optimization</li>
+                </ul>
+            </div>
+    
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>AI Solutions</h3>
+                <p>Implementing cutting-edge artificial intelligence solutions to solve complex business problems.</p>
+                <ul class="service-features">
+                    <li>Machine Learning Models</li>
+                    <li>Natural Language Processing</li>
+                    <li>Computer Vision</li>
+                    <li>AI Integration</li>
+                </ul>
+            </div>
+    
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <h3>Cloud Architecture</h3>
+                <p>Designing and implementing scalable cloud infrastructure using modern cloud platforms and services.</p>
+                <ul class="service-features">
+                    <li>Cloud Migration</li>
+                    <li>Infrastructure as Code</li>
+                    <li>Microservices Architecture</li>
+                    <li>DevOps Implementation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="section-line"></div>
+        </div>
+    
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's talk about your project</h3>
+                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>email@example.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Your Location</span>
+                    </div>
+                </div>
+            </div>
+    
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Name</label>
+                    <div class="line"></div>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                    <div class="line"></div>
+                </div>
+    
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Message</label>
+                    <div class="line"></div>
+                </div>
+    
+                <button type="submit" class="submit-btn">
+                    Send Message
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
